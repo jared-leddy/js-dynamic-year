@@ -32,6 +32,12 @@ const year = today.getFullYear();
 $('#copyrightYear').html(year);
 ```
 
+Note: This example is using ```jQuery```. If you need to use vanilla Javascript, use the below line.
+
+```js
+document.querySelector('#copyrightYear').innerHTML(year);
+```
+
 4. Here are a couple of explanations of the HTML used. Just in case.
 
 ```<p> & </p>``` = open and close paragraph
